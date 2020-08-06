@@ -1,0 +1,28 @@
+/* 画面全体 */
+body {
+    text-align: center;
+    margin: 0px 10%;
+}
+
+/* カードの表示エリア */
+#cards-area {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+/* カード */
+.card {
+    margin: 10px; 
+    width: 200px; 
+    height: 200px; 
+    background: center / contain no-repeat; 
+    border: 4px double #acbccc; 
+    border-radius: 1em; 
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+/* カード裏面 */
+.facedown {
+    background-image: url("./img/back.png") !important;
+}
